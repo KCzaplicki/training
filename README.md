@@ -1,5 +1,7 @@
 # Training projects
 
-## Projects list
+Projects to test libraries, methodologies and services
 
-- Docker
+## Table of Contents
+
+- [Docker]()

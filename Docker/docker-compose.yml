@@ -1,0 +1,18 @@
+version: '3.4'
+
+services:
+  trainingdocker:
+    image: ${DOCKER_REGISTRY-}trainingdocker
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - mssql
+  mssql:
+    container_name: mssql
+    image: "mcr.microsoft.com/mssql/server"
+    environment:
+        SA_PASSWORD: "A3jGhWDJEXx4vwu6"
+        ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
