@@ -46,8 +46,6 @@ namespace TrainingPrometheus
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TrainingPrometheus v1"));
             }
 
-            app.UseHttpsRedirection();
-
             app.UseRouting();
             app.UseHttpMetrics();
 
