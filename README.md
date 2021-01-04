@@ -10,3 +10,4 @@ Projects to test libraries, methodologies and services
 - [Metrics](https://github.com/KCzaplicki/training/tree/main/Prometheus) - Prometheus with Grafana
 - [Unit tests](https://github.com/KCzaplicki/training/tree/main/Unit%20tests)
   - [xUnit](https://github.com/KCzaplicki/training/tree/main/Unit%20tests/xUnit)
+  - [FluentAssertions](https://github.com/KCzaplicki/training/tree/main/Unit%20tests/FluentAssertions)
