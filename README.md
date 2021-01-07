@@ -11,3 +11,4 @@ Projects to test libraries, methodologies and services
 - [Unit tests](https://github.com/KCzaplicki/training/tree/main/Unit%20tests)
   - [xUnit](https://github.com/KCzaplicki/training/tree/main/Unit%20tests/xUnit)
   - [FluentAssertions](https://github.com/KCzaplicki/training/tree/main/Unit%20tests/FluentAssertions)
+  - [AutoFixture](https://github.com/KCzaplicki/training/tree/main/Unit%20tests/AutoFixture)
